@@ -43,7 +43,7 @@ class HelloWorld implements Greet{
     }
 
     sayHello():void{
-        console.log('${this.message} ${this.name} ${this.surnanme} ${this.nick}')
+        console.log(`${this.message} ${this.name} ${this.surname} ${this.nick}`);
     }
 }
 
